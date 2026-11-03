@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+frames/
+*.png
+!icon.svg
+node_modules/
+*.tgz
