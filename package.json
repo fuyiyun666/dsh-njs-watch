@@ -1,0 +1,29 @@
+{
+  "name": "dsh-njs-watch",
+  "version": "0.1.0",
+  "description": "Watch a screen or a video file: state track, key frames, optional OCR, and a one-line 'how it was watched' note. Frames are temporary and deleted on clean.",
+  "license": "MIT",
+  "author": "Nü Junsheng (女钧声)",
+  "type": "module",
+  "keywords": ["dsh", "plugin", "vision", "screen", "video", "ocr"],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "python/*.py",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
