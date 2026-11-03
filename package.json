@@ -19,6 +19,8 @@
     "icon.svg",
     "README.md",
     "CHANGELOG.md",
+    "install.ps1",
+    "install.sh",
     "LICENSE"
   ],
   "dsh": {
