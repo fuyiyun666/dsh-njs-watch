@@ -25,6 +25,26 @@ So the model can tell the difference between "I watched it" and "I sampled it".
 
 ## Install
 
+**Quick install (one command):**
+
+```powershell
+# Windows
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+```bash
+# macOS / Linux
+bash install.sh
+```
+
+The script installs Python deps, adds the plugin to your DSH profile, and enables it.
+
+**Or manually:**
+
+```bash
+npm install https://github.com/fuyiyun666/dsh-njs-watch/releases/download/v0.1.0/dsh-njs-watch-0.1.0.tgz
+```
+
 ```bash
 # once it is on npm:
 npm install dsh-njs-watch
