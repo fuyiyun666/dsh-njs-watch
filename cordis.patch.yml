@@ -1,0 +1,8 @@
+- insert:
+    - id: njs-watch
+      name: 'dsh-njs-watch'
+      config:
+        python: ''
+        outDir: ''
+        ocr: true
+        maxSeconds: 120
